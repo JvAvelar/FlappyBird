@@ -187,7 +187,7 @@ def main():
         relogio.tick(30)
 
         # interação com o usuario
-        for evento in pygame.event.get(): 
+        for evento in pygame.event.get():
             if evento.type == pygame.QUIT:
                 rodando = False
                 pygame.quit()
